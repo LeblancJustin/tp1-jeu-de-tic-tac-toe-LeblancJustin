@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grille_Height">270dp</dimen>
+    <dimen name="grille_Width">270dp</dimen>
+    <dimen name="layout_Padding">16dp</dimen>
+    <dimen name="case_Height">100dp</dimen>
+    <dimen name="case_Width">100dp</dimen>
+    <dimen name="viewport_Width">108</dimen>
+    <dimen name="viewport_Height">108</dimen>
+</resources>
