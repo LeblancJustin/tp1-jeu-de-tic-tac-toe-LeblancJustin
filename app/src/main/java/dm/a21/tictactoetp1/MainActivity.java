@@ -87,11 +87,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL1C1.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -114,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -138,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -162,11 +161,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL2C1.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -190,11 +188,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL2C2.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -218,11 +215,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL2C3.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -246,11 +242,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL3C1.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -274,11 +269,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL3C2.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -302,11 +296,10 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
                         imgCaseL3C3.setImageResource(R.drawable.o);
                         jeu.changementTourDeJeu();
                     }
-
                 }
                 else
                 {
-
+                    Toast.makeText(getApplicationContext(), R.string.caseRemplie, Toast.LENGTH_SHORT).show();
                 }
             }
         });

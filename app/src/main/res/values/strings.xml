@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TicTacToeTP1</string>
+    <string name="caseRemplie">Case déjà remplie!</string>
 </resources>
