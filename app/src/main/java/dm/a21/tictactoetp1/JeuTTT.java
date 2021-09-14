@@ -1,13 +1,17 @@
 package dm.a21.tictactoetp1;
 
 public class JeuTTT extends ModeleJeu {
-    public Joueur changementTourDeJeu (Joueur j) {
-        if(j == Joueur.O)
-            return Joueur.X;
+    Joueur joueur;
+    public void changementTourDeJeu () {
+        if(joueur == Joueur.O)
+            joueur = Joueur.X;
         else
-            return Joueur.O;
+            joueur = Joueur.O;
     }
-    public Joueur tourDeJeuActuel  (Joueur j) {
-        return j;
+    public Joueur tourDeJeuActuel  () {
+        return joueur;
+    }
+    public void initialiserTour () {
+        joueur = Joueur.X;
     }
 }
