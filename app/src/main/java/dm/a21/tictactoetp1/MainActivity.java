@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements InterfaceUtilisateur {
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,13 +38,23 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
         imgCaseL3C2 = findViewById(R.id.ligne3colonne2);
         imgCaseL3C3 = findViewById(R.id.ligne3colonne3);
 
-        int[] cases = {R.id.ligne1colonne1, R.id.ligne1colonne2, R.id.ligne1colonne3,
-                       R.id.ligne2colonne1, R.id.ligne2colonne2, R.id.ligne2colonne3,
-                       R.id.ligne3colonne1, R.id.ligne3colonne2, R.id.ligne3colonne3};
+        //int[] cases = {R.id.ligne1colonne1, R.id.ligne1colonne2, R.id.ligne1colonne3,
+        //               R.id.ligne2colonne1, R.id.ligne2colonne2, R.id.ligne2colonne3,
+        //               R.id.ligne3colonne1, R.id.ligne3colonne2, R.id.ligne3colonne3};
+
+        ImageView[] cases = {imgCaseL1C1, imgCaseL1C2, imgCaseL1C3,
+                             imgCaseL2C1, imgCaseL2C2, imgCaseL2C3,
+                             imgCaseL3C1, imgCaseL3C2, imgCaseL3C3};
+
+        //
+        for (int i = 0; i <= cases.length; i++){
+            cases[0].setImageResource(R.drawable.vide);
+        }
 
         //cases[3].
         //Passer une position(case) et un jeton à jouer (X ou O)
         //InterfaceUtilisateur.PlacerJetonDansCaseVide();
+
 
         imgCaseL1C1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,6 +129,8 @@ public class MainActivity extends AppCompatActivity implements InterfaceUtilisat
     }
 
 
-
-
+    @Override
+    public void PlacerJetonDansCaseVide(String position, ImageView image, String joueur) {
+        
+    }
 }
