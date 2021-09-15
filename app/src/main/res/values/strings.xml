@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">TicTacToeTP1</string>
-    <string name="caseRemplie">Case déjà remplie!</string>
+    <string name="caseRemplie">Case déjà remplie</string>
+    <string name="partieGagnee">Partie gagnée par </string>
+    <string name="partieNulle">Partie nulle</string>
 </resources>

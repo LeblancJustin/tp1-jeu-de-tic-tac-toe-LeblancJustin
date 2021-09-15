@@ -9,6 +9,14 @@
     android:padding="@dimen/layout_Padding"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/titres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Tic Tac Toe">
+    </TextView>
+
     <ImageView
         android:id="@+id/grille"
         android:layout_width="@dimen/grille_Width"
